@@ -1,0 +1,29 @@
+# Ignore virtual environments
+myenv/
+venv/
+.env/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore VS Code and OS-specific files
+.vscode/
+.DS_Store
+
+# Ignore datasets and temporary files
+*.csv
+*.xlsx
+*.zip
+*.txt
+
+# Keep only required pickle files
+!crop_recommendation_model.pkl
+!scaler.pkl
+!reverse_crop_dict.pkl
+
+# Keep important code and notebooks
+!app.py
+!crop_recommendation_system.ipynb
+!requirement.txt
