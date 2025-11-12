@@ -26,4 +26,4 @@ __pycache__/
 # Keep important code and notebooks
 !app.py
 !crop_recommendation_system.ipynb
-!requirement.txt
+!requirements.txt
